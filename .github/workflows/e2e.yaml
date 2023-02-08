@@ -25,7 +25,7 @@ jobs:
           EOF
 
       - name: Upload image
-        uses: ishworkh/docker-image-artifact-upload@v1
+        uses: benlye/docker-image-artifact-upload@v1.2.1
         with:
           image: "test_image:${{ github.run_id }}"
 
